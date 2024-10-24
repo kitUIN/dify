@@ -28,6 +28,7 @@ const LocaleLayout = ({
   return (
     <html lang={locale ?? 'en'} className="h-full" data-theme="light">
       <head>
+        <link rel="icon" href="/dify/favicon.ico"/>
         <meta name="theme-color" content="#FFFFFF" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
