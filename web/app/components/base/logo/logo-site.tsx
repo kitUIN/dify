@@ -16,7 +16,7 @@ const LogoSite: FC<LogoSiteProps> = ({
     }
   })
 
-  const src = theme === 'light' ? '/logo/logo-site.png' : `/logo/logo-site-${theme}.png`
+  const src = theme === 'light' ? '/dify/logo/logo-site.png' : `/dify/logo/logo-site-${theme}.png`
   return (
     <img
       src={src}
